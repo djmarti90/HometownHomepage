@@ -13,7 +13,7 @@ body {
 }
 
 .descriptionContainer {
-    background-image: url("assets/genericCity.png");
+    background-image: url("assets/MannheimWasserturmGarten.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,10 +24,17 @@ body {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    position: relative;
+}
+
+#thanking{
+    position: absolute;
+    bottom: 15px;  /* Abstand zum unteren Rand */
+    right: 15px;   /* Abstand zum rechten Rand */
+    font-size: 0.9rem; /* Optional: Macht den Text dezent etwas kleiner */
 }
 
 .townName {
-
     margin: 0 10px;
 }
 
