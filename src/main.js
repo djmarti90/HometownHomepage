@@ -8,7 +8,7 @@ document.querySelector('#app').innerHTML =
     <div class="mainContainer">
         <div class="descriptionContainer">
             <div class="townNameContainer"><h1 class="townName">Visit ${townName}</h1></div>
-            <div class="townNameDescription"><p class="townDescription">Come to the Town were the Car, the predecessor of the bicle and Mannheimer Dreck was invented</p></div>
+            <div class="townNameDescription"><p class="townDescription">Come to the Town were the Car, the predecessor of the bicycle and Mannheimer Dreck was invented</p></div>
             <span id="thanking" style="align-self: start;">Like the picture? Show some <a target="_blank" href="https://www.pexels.com/@marc-schneid-1420615928/">❤️</a></span>
         </div>
         <div class="highlightsContainer">
