@@ -44,6 +44,7 @@ body {
 .townNameDescription {
     background: #457B9D;
     width: 500px;
+    border-radius: 10px;
 }
 
 .highlightsContainer {
