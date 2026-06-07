@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "knip": "^6.16.1",
     "vite": "^8.0.12"
   }
 }
