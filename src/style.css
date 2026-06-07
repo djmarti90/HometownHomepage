@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.mainContainer {
+    text-align: center;
+    width: 100%;
+    justify-self: center;
+}
+
+.descriptionContainer {
+    background-image: url("assets/genericCity.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.townName {
+
+    margin: 0 10px;
+}
+
+.townDescription {
+    margin: 5px 10px;
+}
+
+.townNameContainer {
+    margin-bottom: 7px;
+    background: #1D3557;
+    border-radius: 10px;
+}
+
+.townNameDescription {
+    background: #457B9D;
+    width: 500px;
+}
+
+.highlightsContainer {
+    color: #1D3557;
+    background-color: #F1FAEE;
+}
+
+.activitiesContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activities {
+    padding: 10px;
+    max-width: 200px;
+}
+
+.activityPicture {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    transition: transform .2s; /* Animation */
+}
+
+.activityPicture:hover {
+    transform: scale(1.2);
+}
+
+#activitiesHeader {
+    margin: 0;
+    padding: 15px;
+}
+
+.tourGuideContainer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.tourGuideCard {
+    width: 800px;
+    margin: 100px 10px;
+    background-color: #A8DADC;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tourguidePicture {
+    width: 300px;
+}
+
+.tourGuideCardContent {
+    width: 60%;
+}
